@@ -15,7 +15,7 @@ def binary_search(list, search_element):
         elif (list[mid] < search_element):
             start = mid + 1
         else:
-            end = mid -1
+            end = mid - 1
 
 #Test with hardcoded list.
 x = [1,3,5,7,9]
